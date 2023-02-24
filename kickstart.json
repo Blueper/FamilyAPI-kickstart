@@ -1,0 +1,23 @@
+{
+	"variables": {
+		"apiKey": "#{UUID()}",
+		"applicationID": "#{UUID()}",
+		"parentUserID": "#{UUID()}",
+		"childUserID": "#{UUID()}",
+		"familyID": "#{UUID()}"
+	},
+	"apiKeys": [
+		{
+			"key": "#{apiKey}"
+		}
+	],
+	"requests": [
+		"&{json/createApplication.json}",
+		"&{json/createChildUser.json}",
+		"&{json/createParentUser.json}",
+		"&{json/registerParentUser.json}",
+		"&{json/registerChlidUser.json}",
+		"&{json/createConsent.json}"
+	]
+
+}

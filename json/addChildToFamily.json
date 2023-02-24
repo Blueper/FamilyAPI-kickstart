@@ -1,0 +1,9 @@
+{
+	"method": "PUT",
+	"url": "api/user/family/#{familyID}",
+    "familyMember" : {
+      "userId": "#{childID}",
+      "owner": false,
+      "role": "Child"
+    }	
+}

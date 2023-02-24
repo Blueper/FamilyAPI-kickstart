@@ -1,0 +1,7 @@
+{
+	"method": "POST",
+	"url": "api/user/registration/#{childUserID}",
+	"registration":{
+		"applicationId": "#{applicationID}"
+	}
+}

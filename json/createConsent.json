@@ -1,0 +1,8 @@
+{
+	"method": "POST",
+	"url": "api/consent",
+	"consent": {
+		"name": "Family API Consent",
+		"defaultMinimumAgeForSelfConsent": 13
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"method": "POST",
+	"url": "api/user/family/#{familyID}",
+    "familyMember" : {
+      "userId": "#{parentID}",
+      "owner": true,
+      "role": "Adult"
+    }	
+}
